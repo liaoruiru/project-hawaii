@@ -1,0 +1,902 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Noto Serif TC', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background-color: white;
+}
+
+header div.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-flex: 5;
+      -ms-flex: 5 1 400px;
+          flex: 5 1 400px;
+  margin-left: 2rem;
+}
+
+header div.logo img {
+  width: 6vw;
+  height: 6vw;
+}
+
+header nav {
+  -webkit-box-flex: 2;
+      -ms-flex: 2 1 400px;
+          flex: 2 1 400px;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header nav ul li a {
+  color: #09777d;
+  text-decoration: none;
+  font-size: 1.35rem;
+}
+
+main section.backImage {
+  background-image: url(../images/pexels-photo-416676.jpeg);
+  min-height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+main h3 {
+  font-size: 3.5rem;
+  color: white;
+  margin: 2rem 0rem;
+}
+
+main div.filter {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  min-height: 90vh;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+main button.start {
+  background-color: #2bd3c8;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+main button.start a {
+  color: white;
+  text-decoration: none;
+}
+
+main button.start:hover {
+  background-color: #09777d;
+}
+
+main section.second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+main section.second h2 {
+  font-size: 2rem;
+  margin: 2rem 0rem;
+}
+
+main section.second section.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  min-height: 80vh;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main section.second section.cards div.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 1rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 300px;
+          flex: 1 1 300px;
+}
+
+main section.second section.cards div.card div.image-container {
+  overflow: hidden;
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+}
+
+main section.second section.cards div.card div.image-container img {
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+main section.second section.cards div.card div.image-container img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+main section.second section.cards div.card h4 {
+  font-size: 2rem;
+  margin: 1rem 0rem;
+}
+
+main section.second section.cards div.card p {
+  font-size: 1.25rem;
+}
+
+main section.second section.cards div.card a {
+  margin: 1rem 0rem;
+  text-decoration: none;
+  padding: 1rem 1.5rem;
+  background-color: #09777d;
+  color: white;
+  font-size: 1.25rem;
+  border-radius: 10px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 40vh;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #cfcfcf;
+}
+
+footer div.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer img {
+  width: 6vw;
+  height: 6vw;
+}
+
+footer nav {
+  width: 30%;
+}
+
+footer nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+footer nav ul li {
+  -ms-flex-preferred-size: 100px;
+      flex-basis: 100px;
+}
+
+footer nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.35rem;
+  font-weight: 600;
+}
+
+footer nav ul li a:hover {
+  color: black;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+footer section.link a {
+  margin: 0rem 1rem;
+}
+
+footer section.link a img {
+  width: 5vw;
+  height: 5vw;
+}
+
+main.about {
+  border: 1px solid rgba(255, 0, 0, 0);
+  background-image: url(../images/sky-1-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+main.about section.about h2 {
+  color: white;
+  text-align: center;
+  font-size: 2.5rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(#84e7ec), color-stop(#54bec4), color-stop(#2b9fa5), to(#09777d));
+  background: linear-gradient(to bottom, #84e7ec, #54bec4, #2b9fa5, #09777d);
+  -webkit-box-shadow: 3px 3px 5px 1px #757474;
+          box-shadow: 3px 3px 5px 1px #757474;
+  margin: 0 auto;
+  line-height: 70px;
+}
+
+main.about section.about ol li {
+  list-style-type: none;
+}
+
+main.about section.about ol li h4 {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #034649;
+  margin: 1rem auto;
+  font-weight: bolder;
+}
+
+main.about section.about ol li p {
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 0.5rem auto;
+  width: 50%;
+}
+
+main.login {
+  border: 1px solid rgba(255, 0, 0, 0);
+  background-image: url(../images/sea-2-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+main.login form fieldset {
+  text-align: center;
+  border: none;
+  margin: 125px auto;
+}
+
+main.login form fieldset legend {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #034649;
+}
+
+main.login form fieldset p {
+  margin: 2rem auto;
+  font-size: 1.2rem;
+}
+
+main.login form fieldset p input[type="text"],
+main.login form fieldset p input[type="password"] {
+  width: 300px;
+  height: 35px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+main.login form fieldset p input[type="text"]:focus,
+main.login form fieldset p input[type="password"]:focus {
+  background-color: #affdf342;
+  outline: none;
+  border: #16808f 3px solid;
+  border-radius: 5px;
+}
+
+main.login form fieldset p input.button {
+  width: 120px;
+  height: 35px;
+  margin: 50px 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+main.login form fieldset p input.button:hover {
+  border: 1px solid #034649;
+  color: white;
+  background-color: #09777d;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+main.signup {
+  border: 1px solid rgba(255, 0, 0, 0);
+  background-image: url(../images/sea-4-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+main.signup h4 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #034649;
+  margin-bottom: 30px;
+}
+
+main.signup form {
+  width: 960px;
+  margin: auto;
+}
+
+main.signup form table {
+  border: 2px solid #09777d;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+main.signup form table caption {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+main.signup form table tr th {
+  width: 10em;
+  text-align: center;
+  background-color: #affdf393;
+}
+
+main.signup form table tr th, main.signup form table tr td {
+  border: 1px solid #109097;
+  padding: 10px 20px;
+}
+
+main.signup form table tr td input[type="text"],
+main.signup form table tr td input[type="password"],
+main.signup form table tr td input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid gray;
+  font-size: 1em;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+main.signup form table tr td input[type="text"]:focus,
+main.signup form table tr td input[type="password"]:focus,
+main.signup form table tr td input[type="email"]:focus {
+  background-color: #affdf336;
+  outline: none;
+  border: #16808f 3px solid;
+  border-radius: 10px;
+}
+
+main.signup form div.btns {
+  text-align: center;
+  margin-top: 10px;
+}
+
+main.signup form div.btns input {
+  width: 120px;
+  height: 35px;
+  margin: 50px 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+main.signup form div.btns input:hover {
+  border: 1px solid #034649;
+  color: white;
+  background-color: #09777d;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+main.forget {
+  border: 1px solid rgba(255, 0, 0, 0);
+  background-image: url(../images/sea-3-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+main.forget form fieldset {
+  text-align: center;
+  border: none;
+  margin: 125px auto;
+}
+
+main.forget form fieldset legend {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #034649;
+}
+
+main.forget form fieldset p {
+  margin: 2rem auto;
+  font-size: 1.2rem;
+}
+
+main.forget form fieldset p input[type="text"],
+main.forget form fieldset p input[type="email"] {
+  width: 300px;
+  height: 35px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+main.forget form fieldset p input[type="text"]:focus,
+main.forget form fieldset p input[type="email"]:focus {
+  background-color: #affdf342;
+  outline: none;
+  border: #16808f 3px solid;
+  border-radius: 5px;
+}
+
+main.forget form fieldset p input.button {
+  width: 120px;
+  height: 35px;
+  margin: 50px 15px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+main.forget form fieldset p input.button:hover {
+  border: 1px solid #034649;
+  color: white;
+  background-color: #09777d;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+main.info {
+  background-image: url(../images/sea-1.jpg);
+  min-height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+main.info section.info {
+  border: 1px solid rgba(255, 0, 0, 0);
+  width: 100%;
+}
+
+main.info section.info h2 {
+  color: white;
+  text-align: center;
+  font-size: 2.5rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(#84e7ec), color-stop(#54bec4), color-stop(#2b9fa5), to(#09777d));
+  background: linear-gradient(to bottom, #84e7ec, #54bec4, #2b9fa5, #09777d);
+  margin: 0 auto;
+  line-height: 70px;
+}
+
+main.info section.info ol {
+  margin: 150px auto;
+}
+
+main.info section.info ol li {
+  list-style-type: none;
+}
+
+main.info section.info ol li p {
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 0.5rem auto;
+  width: 50%;
+}
+
+main.pay section.pay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+main.pay section.pay h2 {
+  font-size: 2rem;
+  margin: 2rem 0rem;
+}
+
+main.pay section.pay section.img-pay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  min-height: 80vh;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main.pay section.pay section.img-pay div.pay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 1rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 500px;
+          flex: 1 1 500px;
+}
+
+main.pay section.pay section.img-pay div.pay h4 {
+  font-size: 2rem;
+  margin: 2rem 0rem;
+}
+
+main.pay section.pay section.img-pay div.pay div.img-pay {
+  overflow: hidden;
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+}
+
+main.pay section.pay section.img-pay div.pay div.img-pay img {
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+main.pay section.pay section.img-pay div.pay div.img-pay img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+main.pay section.pay section.img-pay div.pay p {
+  margin: 2rem 0rem;
+  font-size: 1.25rem;
+}
+
+main.ship section.ship {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+main.ship section.ship h2 {
+  font-size: 2rem;
+  margin: 2rem 0rem;
+}
+
+main.ship section.ship section.img-ship {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  min-height: 80vh;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main.ship section.ship section.img-ship div.ship {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 1rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 500px;
+          flex: 1 1 500px;
+}
+
+main.ship section.ship section.img-ship div.ship h4 {
+  font-size: 2rem;
+  margin: 2rem 0rem;
+}
+
+main.ship section.ship section.img-ship div.ship div.img-ship {
+  overflow: hidden;
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+}
+
+main.ship section.ship section.img-ship div.ship div.img-ship img {
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+main.ship section.ship section.img-ship div.ship div.img-ship img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+main.ship section.ship section.img-ship div.ship p {
+  margin: 2rem 0rem;
+  font-size: 1.25rem;
+}
+
+main.stuff section.stuff {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+main.stuff section.stuff h2 {
+  font-size: 2rem;
+  margin: 2rem 0rem;
+}
+
+main.stuff section.stuff section.img-stuff {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  min-height: 90vh;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main.stuff section.stuff section.img-stuff div.stuff {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 1rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 300px;
+          flex: 1 1 300px;
+}
+
+main.stuff section.stuff section.img-stuff div.stuff div.img-stuff {
+  overflow: hidden;
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+}
+
+main.stuff section.stuff section.img-stuff div.stuff div.img-stuff img {
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+main.stuff section.stuff section.img-stuff div.stuff div.img-stuff img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+main.stuff section.stuff section.img-stuff div.stuff h4 {
+  font-size: 2rem;
+  margin: 2rem 0rem;
+}
+
+main.stuff section.stuff section.img-stuff div.stuff p {
+  margin: 2rem 0rem;
+  font-size: 1.25rem;
+}
+
+main.stuff section.stuff p {
+  font-size: 2rem;
+  margin: 2.5rem 0rem;
+}
+
+main.stuff section.stuff a {
+  margin: 1rem 0rem;
+  text-decoration: none;
+  padding: 1rem 1.5rem;
+  background-color: #09777d;
+  color: white;
+  font-size: 1.25rem;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 980px) {
+  main.signup h4 {
+    margin-left: auto;
+  }
+  main.signup form {
+    margin-left: auto;
+    width: 90%;
+  }
+  main.signup form div.btns {
+    margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  main section.second section.cards div.card div.image-container {
+    width: 40vw;
+    height: 40vw;
+  }
+  main section.second section.cards div.card div.image-container img {
+    width: 40vw;
+    height: 40vw;
+  }
+  main.stuff section.stuff section.img-stuff div.stuff div.img-stuff {
+    width: 40vw;
+    height: 40vw;
+  }
+  main.stuff section.stuff section.img-stuff div.stuff div.img-stuff img {
+    width: 40vw;
+    height: 40vw;
+  }
+  main.ship section.ship section.img-ship div.ship div.img-ship {
+    width: 40vw;
+    height: 40vw;
+  }
+  main.ship section.ship section.img-ship div.ship div.img-ship img {
+    width: 40vw;
+    height: 40vw;
+  }
+  main.pay section.pay section.img-pay div.pay div.img-pay {
+    width: 40vw;
+    height: 40vw;
+  }
+  main.pay section.pay section.img-pay div.pay div.img-pay img {
+    width: 40vw;
+    height: 40vw;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  header div.logo {
+    margin-left: 0.5rem;
+  }
+  header div.logo img {
+    width: 15vw;
+    height: 15vw;
+  }
+  footer div.logo img {
+    width: 15vw;
+    height: 15vw;
+  }
+  footer section.links {
+    margin-top: 1rem;
+  }
+  footer section.links a img {
+    width: 10vw;
+    height: 10vw;
+  }
+  main.about section.about ol li p {
+    width: 90%;
+  }
+  main.login form {
+    margin-left: 10px;
+    width: 90%;
+  }
+  main.info section.info {
+    height: 550px;
+  }
+  main.info section.info ol {
+    margin: auto;
+  }
+  main.info section.info ol li p {
+    font-size: 1.5rem;
+  }
+  main.forget form {
+    margin-left: 10px;
+    width: 90%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

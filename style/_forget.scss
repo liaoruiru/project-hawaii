@@ -1,0 +1,51 @@
+main.forget{
+    border: 1px solid rgba(255, 0, 0, 0);     
+    background-image: url(../images/sea-3-1.jpg);
+    background-size: cover;
+    background-position: center;
+  form{
+      fieldset{
+          text-align: center;
+          border: none;
+          margin: 125px auto;
+          legend{
+              font-size: 1.5rem;
+              font-weight: 600;
+              color: #034649;
+          }
+          p{
+              margin: 2rem auto;
+              font-size: 1.2rem;
+              input[type="text"],
+              input[type="email"]{
+                  width: 300px;
+                  height: 35px;
+                  border-radius: 5px;
+                  cursor:pointer;
+              }
+              input[type="text"]:focus,
+              input[type="email"]:focus{
+                  background-color: #affdf342;
+                  outline: none;
+                  border: #16808f 3px solid;
+                  border-radius: 5px;
+              }
+              input.button{
+                  width: 120px;
+                  height: 35px;
+                  margin: 50px 15px ;
+                  border: 1px solid black ;
+                  border-radius: 10px;
+                  font-size: 1.3rem;
+                  cursor:pointer;                
+              }
+              input.button:hover{
+                  border: 1px solid #034649;
+                  color: white;
+                  background-color: #09777d;
+                  transition: all 0.5s ease;
+              }
+          }
+      }
+  }
+}

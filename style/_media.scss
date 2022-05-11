@@ -1,0 +1,148 @@
+@media screen and (max-width: 980px){
+    main.signup{
+        h4{
+            margin-left: auto;
+        }
+        form{
+          margin-left: auto;
+          width: 90%;                
+            div.btns{
+                margin-left: auto;   
+            }
+        } 
+    }
+}
+@media screen and (max-width: 700px) {
+  main{
+      section.second{
+          section.cards{
+              div.card{
+                div.image-container{
+                    width: 40vw;
+                    height: 40vw;
+                    img{
+                        width: 40vw;
+                        height: 40vw;
+                    }
+                } 
+              }
+          }
+      }
+  }
+  main.stuff{
+    section.stuff{
+        section.img-stuff{
+            div.stuff{
+                div.img-stuff{
+                    width: 40vw;
+                    height: 40vw;
+                    img{
+                        width: 40vw;
+                        height: 40vw;
+                        }
+                    } 
+                }
+            }
+        }
+    }
+    main.ship{
+        section.ship{
+            section.img-ship{
+                div.ship{
+                    div.img-ship{
+                        width: 40vw;
+                        height: 40vw;
+                        img{
+                            width: 40vw;
+                            height: 40vw;
+                        }
+                    } 
+                }
+            }
+        }
+    }
+    main.pay{
+        section.pay{
+            section.img-pay{
+                div.pay{
+                    div.img-pay{
+                        width: 40vw;
+                        height: 40vw;
+                        img{
+                            width: 40vw;
+                            height: 40vw;
+                        }
+                    } 
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 650px) {
+  header{
+      div.logo{
+          margin-left: 0.5rem;
+          img{
+              width: 15vw;
+              height: 15vw;
+          }
+      }
+  }
+  footer{
+      div.logo{
+          img{
+              width: 15vw;
+              height: 15vw;
+          }
+      }
+      section.links{
+          margin-top: 1rem;
+          a{
+              img{
+                  width: 10vw;
+                  height: 10vw;
+              }
+          }
+      }
+  }
+  main.about{
+      section.about{
+          ol{
+              li{
+                  p{
+                      width: 90%;
+                  }
+              }
+          }
+      }
+  }
+  main.login{         
+      form{
+          margin-left: 10px;
+          width: 90%;    
+      }
+  }
+
+  main.info{
+      section.info{
+          height: 550px;
+          ol{
+              margin: auto;
+              li{
+                  p{
+                      font-size: 1.5rem;
+                    }
+                }
+            }
+        }
+    }
+    main.forget{         
+        form{
+            margin-left: 10px;
+            width: 90%;    
+        }
+    
+    }
+}

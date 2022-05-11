@@ -1,0 +1,35 @@
+main.about{
+    border: 1px solid rgba(255, 0, 0, 0);     
+    background-image: url(../images/sky-1-1.jpg);
+    background-size: cover;
+    background-position: center;
+  section.about{
+      h2{
+          color: white;
+          text-align: center;
+          font-size: 2.5rem;
+          background: linear-gradient(to bottom,#84e7ec,#54bec4,#2b9fa5,#09777d);
+          box-shadow: 3px 3px 5px 1px #757474;
+          margin:0 auto;
+          line-height: 70px;
+      }
+      ol{
+          li{
+            list-style-type: none;
+              h4{
+                  text-align: center;
+                  font-size: 1.8rem;
+                  color: #034649;
+                  margin: 1rem auto;
+                  font-weight: bolder;
+              }
+              p{
+                  font-size: 1.2rem;
+                  text-align: center;
+                  margin: 0.5rem auto;
+                  width: 50%;
+              }
+          }
+      }
+  }
+}

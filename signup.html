@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Author">
+    <meta name="robots" content="Robots">
+    <title>會員註冊｜夏威夷最方便快速的旅遊出租服務網站</title>
+    <meta name="description" 
+    content="我們提供夏威夷旅遊租借服務，例如: 衝浪板、車子、帳篷等等。">
+    <!-- google font setting -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+    <style>
+        /* width */
+        ::-webkit-scrollbar {
+          width: 10px;
+        }
+        
+        /* Track */
+        ::-webkit-scrollbar-track {
+          background: #f1f1f1; 
+        }
+         
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+          background: #09777d; 
+          border-radius: 10px;
+        }
+        
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+          background: #17a590; 
+        }
+        </style>
+</head>
+<body>
+    <!-- header -->
+  <header>
+    <div class="logo">
+      <img src="./Icons/black logo.svg"alt="Logo">
+      <h1>夏威夷旅遊租借服務</h1>
+    </div>
+    <nav>
+        <ul>
+          <li><a href="index.html">首頁</a></li>
+          <li><a href="about.html" target="_blank">關於我們</a></li>
+          <li><a href="login.html">會員登入</a></li>
+          <li><a href="info.html" target="_blank">聯絡我們</a></li>
+        </ul>
+    </nav>
+  </header>
+  <main class="signup">
+    <h4>*此為必填項目</h4>
+    <form action="">
+      <table>
+        <caption>個人資料</caption>
+        <tr>
+          <th>姓名*</th>
+          <td>
+            <input type="text" name="name" placeholder="請輸入姓名" required>※可用暱稱
+          </td>
+        </tr>
+        <tr>
+          <th>帳號*</th>
+          <td>
+            <input type="text" name="username" placeholder="請輸入帳號" required>※請輸入半形文字
+          </td>
+        </tr>
+        <tr>
+          <th>密碼*</th>
+          <td>
+            <input type="password" name="password" placeholder="請輸入密碼" required>※請輸入半形文字、含一個大寫英文
+          </td>
+        </tr>
+        <tr>
+          <th>再次輸入密碼*</th>
+          <td>
+            <input type="password" name="password" placeholder="請再次輸入密碼" required>※請輸入半形文字、含一個大寫英文
+          </td>
+        </tr>
+        <tr>
+          <th>電子信箱*</th>
+          <td>
+            <input type="email" name="email" placeholder="sample@gmail.com" required>※請輸入半形文字
+          </td>
+        </tr>
+    </table>
+    <div class="btns">
+        <input type="reset" value="清除重填">
+        <input type="submit" value="送出">
+    </div>
+    </form>
+  </main>
+  <footer>
+    <div class="logo">
+      <img src="./Icons/black logo.svg"alt="Logo">
+      <h1>夏威夷旅遊租借服務</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html" >Home</a></li>
+        <li><a href="about.html" target="_blank">About</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="info.html" target="_blank">Contact</a></li>
+      </ul>
+    </nav>
+    <section class="links">
+      <a href="https://www.facebook.com/" target="_blank"><img src="./Icons/facebook.svg" alt="facebook"></a>
+      <a href="https://www.instagram.com/" target="_blank"><img src="./Icons/instagram.svg" alt="instagram"></a>
+      <a href="https://twitter.com/" target="_blank"><img src="./Icons/twitter.svg" alt="twitter"></a>
+      <a href="https://www.youtube.com/" target="_blank"><img src="./Icons/youtube.svg" alt="youtube"></a>
+    </section>
+  </footer>
+</body>
+<script src="./script.js"></script>
+</html>

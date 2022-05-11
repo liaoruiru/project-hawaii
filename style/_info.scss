@@ -1,0 +1,32 @@
+main.info{  
+    // border: 1px solid blue;    
+    background-image: url(../images/sea-1.jpg);
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  section.info{ 
+      border: 1px solid rgba(255, 0, 0, 0); 
+      width: 100%;  
+      h2{
+          color: white;
+          text-align: center;
+          font-size: 2.5rem;
+          background: linear-gradient(to bottom,#84e7ec,#54bec4,#2b9fa5,#09777d);
+          margin:0 auto;
+          line-height: 70px;
+      }
+      ol{
+        margin: 150px auto;
+          li{
+              list-style-type: none;
+              p{
+                  font-size: 1.8rem;
+                  text-align: center;
+                  margin: 0.5rem auto;
+                  width: 50%;
+              }
+          }
+      }
+  }
+}
